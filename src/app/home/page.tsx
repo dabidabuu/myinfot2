@@ -54,7 +54,7 @@ const home: FC = () => {
                   <div className="bg-white p-6 rounded-lg shadow-lg">
                     <Image src="/dave2.jpg" alt="meows"  width={300} height={100} className="rounded-lg" />
                     <h3 className="text-xl font-semibold mt-4">Full Stack developer</h3>
-                    <p className="text-gray-600">A Full Stack Developer is proficient in both front-end and back-end development.My design and build complete web applications, handling everything from user interfaces to server-side logic, databases, and APIs. Skilled in various programming languages and frameworks, I'am ensure seamless integration across all layers of a web system.</p>
+                    <p className="text-gray-600"> {/* eslint-disable-next-line react/no-unescaped-entities */}A Full Stack Developer is proficient in both front-end and back-end development My design and build complete web applications handling everything from user interfaces to server-side logic, databases, and APIs. Skilled in various programming languages and frameworks, I'am ensure seamless integration across all layers of a web system.</p>
                     <Link href="/portfolio"legacyBehavior>
                           <a className="text-blue-500 font-medium text-lg hover:text-blue-600 transition underline">see more...</a>
                      </Link>
